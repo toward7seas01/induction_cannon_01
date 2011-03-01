@@ -1,5 +1,6 @@
-PATH
-  remote: ~/dragoon_system
+GIT
+  remote: git@github.com:toward7seas01/dragoon_system.git
+  revision: 5cd9f705c69e646f065f4c46a346229a83bea422
   specs:
     dragoon_system (0.1.2)
       rails (~> 3.0.5)

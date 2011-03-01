@@ -7,7 +7,6 @@ describe User do
 
     result = User.regexp(:info, "ll")
 
-    debugger
     result.should have(1).user
     result.first.should == user2
     

@@ -9,11 +9,11 @@ gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
 group :development do
   gem "bundler", "~> 1.0.10"
   gem "jeweler", "~> 1.5.1"
-  gem 'ruby-debug'
 end
 
 group :development, :test do
   gem "rspec-rails", '~> 2.5.0'
+  gem 'ruby-debug'
 end
 
 group :test do
