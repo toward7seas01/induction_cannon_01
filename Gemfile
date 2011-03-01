@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.5'
 
 gem 'mysql2'
-gem 'dragoon_system', :path => "~/dragoon_system"
+gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
 
 
 group :development do
