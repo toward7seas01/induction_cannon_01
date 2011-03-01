@@ -76,6 +76,7 @@ Gem::Specification.new do |s|
     "public/stylesheets/.gitkeep",
     "public/stylesheets/scaffold.css",
     "script/rails",
+    "spec/models/user_spec.rb",
     "spec/spec_helper.rb",
     "vendor/plugins/.gitkeep"
   ]
@@ -85,6 +86,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.5.2}
   s.summary = %q{personal suit, base on dragoon_system}
   s.test_files = [
+    "spec/models/user_spec.rb",
     "spec/spec_helper.rb"
   ]
 
@@ -94,22 +96,28 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, ["= 3.0.5"])
       s.add_runtime_dependency(%q<mysql2>, [">= 0"])
-      s.add_runtime_dependency(%q<dragoon_system>, [">= 0.1.2"])
+      s.add_runtime_dependency(%q<dragoon_system>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
+      s.add_development_dependency(%q<rspec-rails>, ["~> 2.5.0"])
+      s.add_development_dependency(%q<ruby-debug>, [">= 0"])
     else
       s.add_dependency(%q<rails>, ["= 3.0.5"])
       s.add_dependency(%q<mysql2>, [">= 0"])
-      s.add_dependency(%q<dragoon_system>, [">= 0.1.2"])
+      s.add_dependency(%q<dragoon_system>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
+      s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
+      s.add_dependency(%q<ruby-debug>, [">= 0"])
     end
   else
     s.add_dependency(%q<rails>, ["= 3.0.5"])
     s.add_dependency(%q<mysql2>, [">= 0"])
-    s.add_dependency(%q<dragoon_system>, [">= 0.1.2"])
+    s.add_dependency(%q<dragoon_system>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.10"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
+    s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
+    s.add_dependency(%q<ruby-debug>, [">= 0"])
   end
 end
 
