@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -75,6 +76,7 @@ Gem::Specification.new do |s|
     "public/stylesheets/.gitkeep",
     "public/stylesheets/scaffold.css",
     "script/rails",
+    "spec/spec_helper.rb",
     "vendor/plugins/.gitkeep"
   ]
   s.homepage = %q{http://github.com/toward7seas01/induction_cannon_01}
@@ -82,6 +84,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.2}
   s.summary = %q{personal suit, base on dragoon_system}
+  s.test_files = [
+    "spec/spec_helper.rb"
+  ]
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
