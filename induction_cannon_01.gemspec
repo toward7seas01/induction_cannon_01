@@ -56,6 +56,7 @@ Gem::Specification.new do |s|
     "db/schema.rb",
     "db/seeds.rb",
     "doc/README_FOR_APP",
+    "induction_cannon_01.gemspec",
     "lib/induction_cannon_01.rb",
     "lib/tasks/.gitkeep",
     "public/404.html",
