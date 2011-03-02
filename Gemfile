@@ -3,9 +3,9 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.5'
 
 gem 'mysql2'
-#gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
+gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
 #gem 'dragoon_system', :path => '~/dragoon_system'
-gem 'dragoon_system', "0.1.3"
+#gem 'dragoon_system', "0.1.3"
 
 
 group :development do
@@ -19,10 +19,13 @@ group :development, :test do
 end
 
 group :test do
+  gem 'ffaker'
+  gem 'factory_girl_rails'
   gem 'cucumber-rails'
   gem 'database_cleaner', '~> 0.6.0'
   gem 'capybara', "~> 0.4.0"
   gem 'launchy'
+  gem 'rr'
 end
 
 
