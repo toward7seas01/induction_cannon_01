@@ -1,10 +1,3 @@
-PATH
-  remote: ~/dragoon_system
-  specs:
-    dragoon_system (0.1.3)
-      mysql2
-      rails (~> 3.0.5)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -62,6 +55,9 @@ GEM
     culerity (0.2.12)
     database_cleaner (0.6.0)
     diff-lcs (1.1.2)
+    dragoon_system (0.1.4)
+      mysql2
+      rails (~> 3.0.5)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     factory_girl (1.3.3)
@@ -162,7 +158,7 @@ DEPENDENCIES
   capybara (~> 0.4.0)
   cucumber-rails
   database_cleaner (~> 0.6.0)
-  dragoon_system!
+  dragoon_system (= 0.1.4)
   factory_girl_rails
   ffaker
   inherited_resources
