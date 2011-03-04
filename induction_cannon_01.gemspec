@@ -5,16 +5,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{induction_cannon_01}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["zhanyinan"]
-  s.date = %q{2011-03-02}
+  s.date = %q{2011-03-04}
   s.description = %q{personal suit, base on dragoon_system}
   s.email = %q{toward7seas@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README",
     "README.rdoc"
   ]
   s.files = [
@@ -23,7 +22,6 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README",
     "README.rdoc",
     "Rakefile",
     "VERSION",
@@ -70,7 +68,9 @@ Gem::Specification.new do |s|
     "induction_cannon_01.gemspec",
     "lib/induction_cannon_01.rb",
     "lib/tasks/.gitkeep",
+    "lib/tasks/custom.rake",
     "pkg/induction_cannon_01-0.0.1.gem",
+    "pkg/induction_cannon_01-0.0.2.gem",
     "public/404.html",
     "public/422.html",
     "public/500.html",
@@ -78,15 +78,17 @@ Gem::Specification.new do |s|
     "public/images/rails.png",
     "public/index.html",
     "public/javascripts/application.js",
-    "public/javascripts/controls.js",
-    "public/javascripts/dragdrop.js",
-    "public/javascripts/effects.js",
-    "public/javascripts/prototype.js",
+    "public/javascripts/jquery.js",
+    "public/javascripts/jquery.min.js",
     "public/javascripts/rails.js",
     "public/robots.txt",
     "public/stylesheets/.gitkeep",
     "public/stylesheets/scaffold.css",
     "script/rails",
+    "spec/controllers/users_controller_spec.rb",
+    "spec/factories/user.rb",
+    "spec/models/base/search_spec.rb",
+    "spec/models/base/transaction_spec.rb",
     "spec/models/extra_spec.rb",
     "spec/models/user_spec.rb",
     "spec/spec_helper.rb",
@@ -98,6 +100,10 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.5.2}
   s.summary = %q{personal suit, base on dragoon_system}
   s.test_files = [
+    "spec/controllers/users_controller_spec.rb",
+    "spec/factories/user.rb",
+    "spec/models/base/search_spec.rb",
+    "spec/models/base/transaction_spec.rb",
     "spec/models/extra_spec.rb",
     "spec/models/user_spec.rb",
     "spec/spec_helper.rb"
@@ -109,7 +115,9 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, ["= 3.0.5"])
       s.add_runtime_dependency(%q<mysql2>, [">= 0"])
-      s.add_runtime_dependency(%q<dragoon_system>, ["= 0.1.3"])
+      s.add_runtime_dependency(%q<jquery-rails>, [">= 0.2.7"])
+      s.add_runtime_dependency(%q<inherited_resources>, [">= 0"])
+      s.add_runtime_dependency(%q<dragoon_system>, ["= 0.1.4"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_development_dependency(%q<rspec-rails>, ["~> 2.5.0"])
@@ -117,7 +125,9 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<rails>, ["= 3.0.5"])
       s.add_dependency(%q<mysql2>, [">= 0"])
-      s.add_dependency(%q<dragoon_system>, ["= 0.1.3"])
+      s.add_dependency(%q<jquery-rails>, [">= 0.2.7"])
+      s.add_dependency(%q<inherited_resources>, [">= 0"])
+      s.add_dependency(%q<dragoon_system>, ["= 0.1.4"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
@@ -126,7 +136,9 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<rails>, ["= 3.0.5"])
     s.add_dependency(%q<mysql2>, [">= 0"])
-    s.add_dependency(%q<dragoon_system>, ["= 0.1.3"])
+    s.add_dependency(%q<jquery-rails>, [">= 0.2.7"])
+    s.add_dependency(%q<inherited_resources>, [">= 0"])
+    s.add_dependency(%q<dragoon_system>, ["= 0.1.4"])
     s.add_dependency(%q<bundler>, ["~> 1.0.10"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
     s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
