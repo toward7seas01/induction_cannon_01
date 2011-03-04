@@ -1,3 +1,5 @@
+= rails generate dragoon_system:install, something will happen
+
 = induction_cannon_01
 
 Description goes here.
