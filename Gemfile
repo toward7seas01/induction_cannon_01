@@ -4,6 +4,7 @@ gem 'rails', '3.0.5'
 
 gem 'mysql2'
 gem 'jquery-rails', '>= 0.2.7'
+gem 'inherited_resources'
 
 #gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
 gem 'dragoon_system', :path => '~/dragoon_system'
