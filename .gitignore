@@ -5,3 +5,4 @@ nbproject
 db/schema.rb
 config/locales
 pkg
+public/javascripts/application.js

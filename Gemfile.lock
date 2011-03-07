@@ -55,7 +55,7 @@ GEM
     culerity (0.2.12)
     database_cleaner (0.6.0)
     diff-lcs (1.1.2)
-    dragoon_system (0.1.4)
+    dragoon_system (0.1.5)
       mysql2
       rails (~> 3.0.5)
     erubis (2.6.6)
@@ -158,7 +158,7 @@ DEPENDENCIES
   capybara (~> 0.4.0)
   cucumber-rails
   database_cleaner (~> 0.6.0)
-  dragoon_system (= 0.1.4)
+  dragoon_system (= 0.1.5)
   factory_girl_rails
   ffaker
   inherited_resources

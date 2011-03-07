@@ -8,7 +8,7 @@ gem 'inherited_resources'
 
 #gem 'dragoon_system', :git => "git@github.com:toward7seas01/dragoon_system.git"
 #gem 'dragoon_system', :path => '~/dragoon_system'
-gem 'dragoon_system', "0.1.4"
+gem 'dragoon_system', "0.1.5"
 
 
 group :development do
