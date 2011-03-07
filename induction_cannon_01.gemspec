@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{induction_cannon_01}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["zhanyinan"]
@@ -118,7 +118,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<mysql2>, [">= 0"])
       s.add_runtime_dependency(%q<jquery-rails>, [">= 0.2.7"])
       s.add_runtime_dependency(%q<inherited_resources>, [">= 0"])
-      s.add_runtime_dependency(%q<dragoon_system>, ["= 0.1.5"])
+      s.add_runtime_dependency(%q<dragoon_system>, ["= 0.1.7"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_development_dependency(%q<rspec-rails>, ["~> 2.5.0"])
@@ -128,7 +128,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<mysql2>, [">= 0"])
       s.add_dependency(%q<jquery-rails>, [">= 0.2.7"])
       s.add_dependency(%q<inherited_resources>, [">= 0"])
-      s.add_dependency(%q<dragoon_system>, ["= 0.1.5"])
+      s.add_dependency(%q<dragoon_system>, ["= 0.1.7"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
       s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
@@ -139,7 +139,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<mysql2>, [">= 0"])
     s.add_dependency(%q<jquery-rails>, [">= 0.2.7"])
     s.add_dependency(%q<inherited_resources>, [">= 0"])
-    s.add_dependency(%q<dragoon_system>, ["= 0.1.5"])
+    s.add_dependency(%q<dragoon_system>, ["= 0.1.7"])
     s.add_dependency(%q<bundler>, ["~> 1.0.10"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
     s.add_dependency(%q<rspec-rails>, ["~> 2.5.0"])
