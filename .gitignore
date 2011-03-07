@@ -4,3 +4,4 @@ tmp/
 nbproject
 db/schema.rb
 config/locales
+pkg
